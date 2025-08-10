@@ -1,0 +1,123 @@
+/* style.css */
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    border: 1px solid #ddd;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+
+  /* style.css */
+/* Default theme */
+body.default {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1.default {
+  color: #333;
+}
+
+ul.default {
+  list-style-type: none;
+  padding: 0;
+}
+
+li.default {
+  border: 1px solid #ddd;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button.default {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Dark theme */
+body.dark {
+  font-family: 'Courier New', monospace;
+  text-align: center;
+  background-color: #333;
+  color: white;
+}
+
+h1.dark {
+  color: white;
+}
+
+ul.dark {
+  list-style-type: none;
+  padding: 0;
+}
+
+li.dark {
+  border: 1px solid #ddd;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button.dark {
+  background-color: #777;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}

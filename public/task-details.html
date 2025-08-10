@@ -1,0 +1,36 @@
+<!-- task-details.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Task Manager - Task Details</title>
+</head>
+<body>
+  <nav>
+    <ul class="menu">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="task-list.html">Task List</a></li>
+      <li><a href="task-details.html">Task Details</a></li>
+      <li><a href="settings.html">Settings</a></li>
+    </ul>
+  </nav>
+  <h1>Task Details</h1>
+  <!-- Dropdown to select task ID -->
+  <label for="task-id-dropdown">Select Task ID:</label>
+  <select id="task-id-dropdown"></select>
+
+  <!-- Button to trigger showTaskDetails -->
+  <button onclick="showTaskDetails()">Show Task Details</button>
+
+  
+  <div id="task-details-container">
+  <h2>Task Title: <span id="task-title-details"></span></h2>
+    <p>Task ID: <span id="task-id-details"></span></p>
+    <p>Status: <span id="task-status-details"></span></p>
+  </div>
+  
+  <script src="script3.js"></script>
+</body>
+</html>
